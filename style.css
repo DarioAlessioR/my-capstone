@@ -23,6 +23,15 @@ header a {
   text-decoration: none;
 }
 
+.logo1 {
+  width: 15%;
+  height: auto;
+}
+
+
+
+
+
 @media screen and (max-width: 768px) {
   .mobile-drop {
     scroll-behavior: smooth;
