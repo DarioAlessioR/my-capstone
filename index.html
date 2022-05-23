@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dario Alessio Portfolio Page</title>
+    <script
+      src="https://kit.fontawesome.com/8bfb3ed134.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body class="body">
+    <header>
+      <h5><a href="#">Dario Alessio</a></h5>
+      <nav>
+        <ul class="mobile-drop show" id="show">
+          <li class="menu-link" id="xclose">X</li>
+          <li class="menu-link"><a href="#works">Portfolio<i class="fas fa-angle-right mobile-arrow"></i></a></li>
+          <li class="menu-link"><a href="#about">About<i class="fas fa-angle-right mobile-arrow"></i></a></li>
+          <li class="menu-link"><a href="#contactForm">Contact<i class="fas fa-angle-right mobile-arrow"></i></a></li>
+          <li class="menu-link email">
+            <a href="#email" class="email" aria-label="email icon from Fontawesom"><i class="fa fa-envelope-o" aria-hidden="true"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <div id="open" class="menu" title="menu">
+        <img src="images/union.png" alt="menu icon">
+      </div>
+    </header>
+
+    <section id="portfolio" >
+      <h1 class="name">Dario Alessio</h1>
+      <h2 class="profession">Software Developer</h2>
+
+      <p>
+        I'm a software developer and can help your software projects to finish on time. 
+        Look through my portfolio and you'll see what I can
+        do. If you want to explore about how
+        I can contribute to your projects, please don't hesitate to contact me.
+      </p>
+
+      <hr />
+
+      <div class="container-strengths">
+        <div class="features">
+          <h3>Languages</h3>
+          <ul>
+            <li>Javascript</li>
+            <li>Ruby</li>
+            <li>HTML</li>
+            <li>CCS</li>
+          </ul>
+        </div>
+        <div class="features">
+          <h3>Frameworks</h3>
+          <ul>
+            <li>Bootstrap</li>
+            <li>Ruby on Rails</li>
+            <li>RSPec</li>
+            <li>CapyBara</li>
+            <li>Selenium</li>
+          </ul>
+        </div>
+        <div class="features">
+          <h3>Skills</h3>
+          <ul>
+            <li>Codekit</li>
+            <li>Github</li>
+            <li>Codepen</li>
+            <li>Gitlab</li>
+            <li>Terminal</li>
+          </ul>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="container-WorkSocial">
+        <h4 id="ctrlHide">Work <i class="fas fa-arrow-down"></i></h4>
+
+        <div>
+          <a href="#" target="new" aria-label="Github icon"><i class="fab fa-github social-icon"></i></a>
+          <a href="#" target="new" aria-label="Linkedin icon"><i class="fab fa-linkedin-in social-icon"></i></a>
+          <a href="#" target="new" aria-label="Facebook icon"><i class="fab fa-facebook social-icon"></i></a>
+          <a href="#" target="new" aria-label="Twitter icon"><i class="fab fa-twitter social-icon"></i></a>
+          <a href="#" target="new" aria-label="Angellist icon"><i class="fab fa-angellist"></i></a>
+        </div>
+
+        <h4><i class="fas fa-arrow-down"></i> Work</h4>
+      </div>
+    </section>
+
+    <section id="works">
+      <h2>My recent works</h2>
+
+      <hr />
+
+      <article class="art_img_left">
+        <div class="work-image">
+          <img src="images/portfolio/Fugados.jpg" alt="image of rock band Fugados" />
+        </div>
+
+        <div class="work-text">
+          <h3>Fugadøs Band's Website</h3>
+          <p>
+            Official site for best indie rock band of Venezuela. Site was
+            created following client strict requirements, according to indie
+            rock websites standards.
+          </p>
+          <ul>
+            <li>Html</li>
+            <li>CSS</li>
+            <li>Ruby</li>
+          </ul>
+
+          <a href="javascript:modalOpen(0)" class="superButton">Go to site !</a>
+        </div>
+      </article>
+
+      <article class="art_img_right">
+        <div class="work-text">
+          <h3>"Teach yourself social networks" website</h3>
+          <p>
+            Project developed for private education institution to help senior
+            students understand social networks and promote their use.
+          </p>
+          <ul>
+            <li>Html</li>
+            <li>CSS</li>
+            <li>React</li>
+            <li>Ruby</li>
+          </ul>
+
+          <a href="javascript:modalOpen(1)" class="superButton">Go to site !</a>
+        </div>
+
+        <div class="work-image">
+          <img src="images/portfolio/Fugados.jpg" alt="image of rock band Fugados" />
+        </div>
+      </article>
+
+      <article class="art_img_left">
+        <div class="work-image">
+          <img src="images/portfolio/Fugados.jpg" alt="image of rock band Fugados" />
+        </div>
+
+        <div class="work-text">
+          <h3>"Teach yourself WWW" website</h3>
+          <p>
+            Project developed for private education institution to help senior
+            students understand the WEB world and promote their use.
+          </p>
+          <ul>
+            <li>Html</li>
+            <li>CSS</li>
+            <li>Ruby</li>
+          </ul>
+
+          <a href="javascript:modalOpen(2)" class="superButton">Go to site !</a>
+        </div>
+      </article>
+
+      <article class="art_img_right">
+        <div class="work-text">
+          <h3>"Teach yourself good computer habits" website</h3>
+          <p>
+            Project developed for private education institution to help senior
+            students acquire good computer habits and promote their use.
+          </p>
+          <ul>
+            <li>Html</li>
+            <li>CSS</li>
+            <li>React</li>
+            <li>Ruby</li>
+          </ul>
+
+          <a href="javascript:modalOpen(3)" class="superButton">Go to site !</a>
+        </div>
+
+        <div class="work-image">
+          <img src="images/portfolio/Fugados.jpg" alt="image of rock band Fugados" />
+        </div>
+      </article>
+    </section>
+
+    <section id="about">
+      <h2>About myself</h2>
+      <p>
+        Hi. Thank you for the opportunity to present myself. I'm a software
+        developer with seasons of experience helping internal and external
+        clients to reach their goals, mainly in the educational and financial
+        institutions sector. I can make your projects go ahead, finish on time,
+        improve and grow according to your evolving needs.
+      </p>
+      <a href="#" class="superButtonR">Download Resume</a>
+    </section>
+
+    <section id="contactForm">
+      <h2>Let's chat!</h2>
+      <p>
+        If you have an application you are interested in developing, a feature
+        that you need built or a project that needs coding, I'd love to help
+        with it.
+      </p>
+
+      <div class="contact">
+        <form action="https://formspree.io/f/xrgjojpj" method="POST" onsubmit="return validate();">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="user_name" placeholder="Name" required minlength="1" maxlength="30"/>
+          
+          <label for="mail">Email address</label>
+          <input type="email" id="mail" name="user_email" placeholder="Email address" required/>
+          
+          <label for="msg">Your message</label>
+          <textarea id="msg" name="user_message" placeholder="Your message" required minlength="1" maxlength="500"></textarea>
+          
+          <button id="formButton" class="superButton" type="submit">Send</button>
+          <p id="errorMessage" class="emailErrorMessage"></p>
+        </form>
+      
+      </div>
+
+      <hr class="bottomLine" />
+    
+    </section>
+
+    <footer>
+      <div class="container-WorkSocial2">
+        <div>       
+          <a href="#" target="new" aria-label="Github icon"><i class="fab fa-github social-icon"></i></a>
+          <a href="#" target="new" aria-label="Linkedin icon"><i class="fab fa-linkedin-in social-icon"></i></a>
+          <a href="#" target="new" aria-label="Facebook icon"><i class="fab fa-facebook social-icon"></i></a>
+          <a href="#" target="new" aria-label="Twitter icon"><i class="fab fa-twitter social-icon"></i></a>
+          <a href="#" target="new" aria-label="Angellist icon"><i class="fab fa-angellist"></i></a>
+        </div>
+        <h3>emailhere@email.com</h3>
+      </div>
+    </footer>
+
+    <div id="modalWin" class="modal modal_hide">
+      <div class="modalWin">
+        <div class="title">
+          <h3 id="modal_title">Fugadøs Band's Website</h3>
+          <h5 id="closeModal" onClick="modalClose('true')">X</h5>
+        </div>
+        <div class="imgModal">
+          <img id="modal_image" src="images/portfolio/Fugados.jpg" alt="image of rock band Fugados" />
+        </div>
+        <div class="modalInfo">
+          <p id="modal_description">
+            Official site for best indie rock band of Venezuela. Site was
+            created following client strict requirements, according to indie
+            rock websites standards.
+          </p>
+        </div>
+        <ul id="modal_lang" class="lang-tag-base">
+          <li>Html</li>
+          <li>CSS</li>
+          <li>Ruby</li>
+        </ul>
+
+        <div class="buttonPopup">
+          <a id="modal_live" href="#" target="new" class="superButtonPopup">See Live<i class="fas fa-link social-icon"></i></a>
+          <a id="modal_source" href="#" target="new" class="superButtonPopup">See Source<i class="fab fa-github social-icon"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <script src="./index.js"> </script>
+
+  </body>
+</html>
