@@ -1,37 +1,41 @@
 /* FROM HERE ARRAY WITH WORKS FOR POPUP PROJECT */
 
-const projects = [
+const concerts = [
   {
-    client: 'Fugados Band',
-    description: 'Official site for best indie rock band of Venezuela. Site was created following client strict requirements, according to indie rock websites standards.',
-    image: 'images/portfolio/Fugados.jpg',
-    languages: ['HTML', 'CSS', 'Ruby'],
-    link: 'http://www.fugadosband.com/',
-    source: 'https://github.com/DarioAlessioR',
+    band: 'Fugados Band',
+    category: 'Pure rock and roll band',
+    description: 'Concert of best rock and roll band of Venezuela, to be held at main arena in prime time on July 16th. Concert will be curated for future video to be brodcasted via Youtube Live.',
+    image: 'images/fugados10.jpeg',
   },
   {
-    client: 'Fugados Band 2',
-    description: 'New Official site for best indie rock band of Venezuela. Site was created following client strict requirements, according to indie rock websites standards.',
-    image: 'images/portfolio/Fugados.jpg',
-    languages: ['HTML', 'CSS', 'React', 'Ruby'],
-    link: 'http://www.fugadosband.com/',
-    source: 'https://github.com/DarioAlessioR',
+    band: 'Fugados Indie Rock Band',
+    category: 'Pure indie rock style band',
+    description: 'Concert of best indie rock band of Venezuela, to be held at main arena in prime time, on July 15th. Concert will be curated for future video to be brodcasted via Youtube Live.',
+    image: 'images/fugados11.jpg',
   },
   {
-    client: 'Fugados Band 3',
-    description: 'Very new Official site for best indie rock band of Venezuela. Site was created following client strict requirements, according to indie rock websites standards.',
-    image: 'images/portfolio/Fugados.jpg',
-    languages: ['HTML', 'CSS', 'Ruby'],
-    link: 'http://www.fugadosband.com/',
-    source: 'https://github.com/DarioAlessioR',
+    band: 'Fugados Soul Rock Band',
+    category: 'Pure soul rock and roll band',
+    description: 'The concert of the award winning soul rock band of America, to be held at main arena in prime time on July 17th. Concert will be curated for future video to be brodcasted via Youtube Live.',
+    image: 'images/fugados12.jpg',
   },
   {
-    client: 'Fugados Band 4',
-    description: 'Very and super new Official site for best indie rock band of Venezuela. Site was created following client strict requirements, according to indie rock websites standards.',
-    image: 'images/portfolio/Fugados.jpg',
-    languages: ['HTML', 'CSS', 'React', 'Ruby'],
-    link: 'http://www.fugadosband.com/',
-    source: 'https://github.com/DarioAlessioR',
+    band: 'Fugados Electric Wave Band',
+    category: 'Pure Electric Wave rock and roll band',
+    description: 'Concert of best Electric Wave rock band of Venezuela, to be held at the Gold Arena in prime time. Concert will be brodcasted alive via Youtube Live and funds will contribute to humanitarian cause.',
+    image: 'images/fugados13.jpg',
+  },
+  {
+    band: 'Arepa y Sushi Band',
+    category: 'Venezuelan tipical music band with japanese artist included',
+    description: 'The aclaimed and world famouse venezuelan misic band tha has conquered Asia and set the standard for etnit music in Japan. Concert to be held before main arena event on July 15th.',
+    image: 'images/arepasushi.jpg',
+  },
+  {
+    band: 'Universidad Gaitera',
+    category: 'Tipical gaita band from Venezuela, funded in 1983 in Puerto La Cruz, Anzoategui, Venezuela',
+    description: 'Concert of the famouse Universidad Gaitera Band, to be held before main event at Gold Arena on July 17th.',
+    image: 'images/universidad.jpeg',
   },
 ];
 
