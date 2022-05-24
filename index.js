@@ -1,4 +1,4 @@
-/* FROM HERE ARRAY WITH WORKS FOR POPUP PROJECT */
+/* FROM HERE ARRAY WITH BANDS FOR PROJECT */
 
 const concerts = [
   {
@@ -39,9 +39,85 @@ const concerts = [
   },
 ];
 
+/* FROM HERE CODE TO INJECT FEATURED BANDS FOR CAPSTONE PROJECT */
+
+const body = document.querySelector('body');
+
+let listBands = '';
+
+// eslint-disable-next-line no-plusplus
+for (let i = 0; i <= concerts.length; i++) {
+  // eslint-disable-next-line no-unused-vars
+  listBands += `<div class="band-box">
+  <div class="band-image">
+    <img src=${concerts[i].image}" title="${concerts[i].band}" alt="${concerts[i].band}" />
+  </div>
+    <div class="band-info">
+      <div class="band-head">
+        <h4>${concerts[i].band}</h4>
+        <p class="category">${concerts[i].category}</p>
+        <p class="description">${concerts[i].description}</p>
+      </div>
+    </div>
+  </div>`;
+
+  document.getElementById('listBands').innerHTML = listBands;
+}
+
+body.appendChild(listBands);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+
+const body = document.querySelector('body');
+const FeaturedSection = document.querySelector('.featured-guests');
+for (let i = 0; i < featuredGuest.length; i += 1) {
+    const guestContent = document.createElement('div');
+   guestContent.classList.add('guest-content');
+    guestContent.innerHTML = `
+    <div class="guest-content--img">
+    <img src=${featuredGuest[i].image} alt="">
+</div>
+<div class="guest-content--description">
+    <h2 class="guest-name">${featuredGuest[i].name}</h2>
+    <p class="guest-content--description1">${featuredGuest[i].description}</p>
+    <div class="guest-content--border"></div>
+    <p class="guest-content--description2">${featuredGuest[i].description2}</p>
+</div>
+    `;
+    body.appendChild(guestContent);
+  };
+
+
+
+
+
+
+
+
+
+
+/*
+
 const modal = document.querySelector('#modalWin');
 
 /* FROM HERE CODE FOR MENU PROJECT */
+
+/*
 
 const ul = document.getElementById('show');
 const open = document.getElementById('open');
@@ -62,6 +138,8 @@ open.addEventListener('click', () => {
 });
 
 /* FROM HERE CODE FOR POPUP PROJECT */
+
+/*
 
 const modalClose = (opc = false) => {
   if (opc) {
@@ -110,3 +188,5 @@ function validate() {
 modalOpen();
 modalClose();
 validate();
+
+*/
