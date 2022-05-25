@@ -41,16 +41,13 @@ const concerts = [
 
 /* FROM HERE CODE TO INJECT FEATURED BANDS FOR CAPSTONE PROJECT */
 
-const body = document.querySelector('body');
-
 let listBands = '';
 
-// eslint-disable-next-line no-plusplus
-for (let i = 0; i <= concerts.length; i++) {
+for (let i = 0; i <= concerts.length; i += 1) {
   // eslint-disable-next-line no-unused-vars
   listBands += `<div class="band-box">
   <div class="band-image">
-    <img src=${concerts[i].image}" title="${concerts[i].band}" alt="${concerts[i].band}" />
+    <img src="${concerts[i].image}" title="${concerts[i].band}" alt="${concerts[i].band}" />
   </div>
     <div class="band-info">
       <div class="band-head">
@@ -61,27 +58,32 @@ for (let i = 0; i <= concerts.length; i++) {
     </div>
   </div>`;
 
-  document.getElementById('listBands').innerHTML = listBands;
+  document.getElementById('list-bands').innerHTML = listBands;
+  
 }
 
-body.appendChild(listBands);
+
+
+/* fffffffffffffffffffffffffffffff */
+
+
+
+/*
+const img = document.createElement('img');
+
+img.src = concerts[0].image;
+img.alt = 'Logo Javascript';
+
+document.body.appendChild(img);
+
+var targetDiv = document.getElementById('list-bands');
+targetDiv.innerHTML += 'data that you want to add';
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
-
+/* xxxxxxxxxxxxxcodigo de mauricio xxxxxxxxxxxxxxxxxxxxxxxxx */
+/*
 
 const body = document.querySelector('body');
 const FeaturedSection = document.querySelector('.featured-guests');

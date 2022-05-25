@@ -22,8 +22,8 @@ a {
 
 body {
   background-color: #f8f8f8;
-  color: rgb(8, 8, 8);
-  font-family: 'Roboto', sans-serif;
+ /* color: rgb(8, 8, 8); */
+  
   width: 100%;
 }
 
@@ -252,6 +252,8 @@ section {
   width: 100%;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  column-gap: 10px;
+  justify-content: space-between;
 }
 
 .program-box:hover {
@@ -268,6 +270,7 @@ section {
   padding: 0 0 0 7px;
   margin-bottom: 7px;
   text-align: left;
+  width: 35%;
 }
 
 .program-box p {
@@ -329,7 +332,7 @@ section {
 }
 
 .band-box .band-image {
-  width: 25%;
+  width: 35%;
 }
 
 .band-box .band-info {
@@ -338,17 +341,17 @@ section {
 }
 
 .band-box .band-info .band-head {
-  background: url('images/guitar.jpg') bottom left;
+  background: url('images/guitar.jpg');
   background-repeat: no-repeat;
   margin-bottom: 10px;
   padding-bottom: 10px;
 }
 
 #about {
-  background: url('images/about-background.jpg') no-repeat center center;
+  background: url('images/about-background2.jpg') no-repeat;
   padding: 90px 0;
   text-align: center;
-}
+ }
 
 #about .box {
   margin-bottom: 20px;
@@ -358,15 +361,11 @@ section {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: url('images/fugados-background.jpg');
+  background-image: url('images/fugados-background2.jpg');
   background-size: cover;
   min-height: 100vh;
   padding: 90px 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  opacity: 0.2;
-  z-index: -100;
 }
 
 #cover h3 {
@@ -577,11 +576,14 @@ nav a:hover {
     font-size: 1rem;
     margin-bottom: 10px;
     text-align: center;
+    width: 100%;
   }
 
-  .program-box img {
-    margin-bottom: 10px;
+  .program-box .icono {
+    margin-bottom: 20px;
     width: 60px;
+    height: auto;
+    
   }
 
   .program-box p {
@@ -615,8 +617,9 @@ nav a:hover {
   }
 
   #cover {
-    background: url('images/fugados-background.jpg') no-repeat center center;
+    background: url('images/fugados-background2.jpg') no-repeat center center;
     padding: 120px 0 0 0;
+    min-height: 100vh;
   }
 
   #cover img {
@@ -647,6 +650,13 @@ nav a:hover {
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+
+
+
+
+
+
+    
   }
 
   #sponsors #list-sponsors {
