@@ -2,11 +2,10 @@
   font-family: 'COCOGOOSE Regular';
   font-style: normal;
   font-weight: normal;
-  src: local("COCOGOOSE Regular"), url("../fonts/cocogoose_trial.woff") format("woff");
+  src: local("COCOGOOSE Regular"), url("./fonts/cocogoose_trial.woff") format("woff");
 }
 
 * {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -16,14 +15,11 @@
 
 a {
   color: #272a31;
-  -webkit-transition: 0.25s;
   transition: 00.25s;
 }
 
 body {
   background-color: #f8f8f8;
- /* color: rgb(8, 8, 8); */
-  
   width: 100%;
 }
 
@@ -72,6 +68,21 @@ h4 {
   margin-bottom: 0.5em;
   padding-bottom: 5px;
   text-align: center;
+}
+
+#about h4 {
+  color: rgb(54, 51, 51);
+  font-size: 1.33rem;
+  font-weight: 600;
+  margin-bottom: 2em;
+  margin-top: 2em;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.logo-about {
+  margin-top: 170px;
+  margin-bottom: 50px;
 }
 
 header {
@@ -187,16 +198,17 @@ section {
 
 .logo1:hover {
   opacity: 0.5;
-  -webkit-transition: 0.25s;
   transition: 0.25s;
+}
+
+#about .logo1-big {
+  width: 40%;
 }
 
 .mobile-menu-close {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   font-size: 1.5rem;
   color: #fff;
@@ -210,8 +222,6 @@ section {
   -ms-flex-align: center;
   align-items: center;
   color: #3e3e3e;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   font-size: 1.2rem;
   -webkit-box-pack: center;
@@ -304,11 +314,12 @@ section {
 }
 
 .band-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   width: 100%;
+  column-gap: 10px;
+  
+  
 }
 
 .band-box h4 {
@@ -325,6 +336,7 @@ section {
   font-size: 0.9rem;
   line-height: 1.2em;
   margin-bottom: 0;
+  padding-top: 10px;
 }
 
 .band-box .category {
@@ -333,6 +345,7 @@ section {
 
 .band-box .band-image {
   width: 35%;
+  margin-left: 10px;
 }
 
 .band-box .band-info {
@@ -340,21 +353,45 @@ section {
   width: 70%;
 }
 
-.band-box .band-info .band-head {
-  background: url('images/guitar.jpg');
+.band-image-background {
+  background: url('images/guitar3.png');
   background-repeat: no-repeat;
-  margin-bottom: 10px;
-  padding-bottom: 10px;
+  width: 100px;
+  height: 70px;
+  margin-bottom: -45px;
+  margin-left: -30px;
+  z-index: -1000;
 }
 
 #about {
   background: url('images/about-background2.jpg') no-repeat;
   padding: 90px 0;
   text-align: center;
+  display: flex;
  }
 
 #about .box {
   margin-bottom: 20px;
+}
+
+.past-editions {
+  column-gap: 10px;
+  width: 80%;
+  max-width: 1080px;
+  flex-wrap: wrap;
+  justify-items: center;
+}
+
+div .past-editions {
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.past-editions img {
+  width: 40%;
+  height: auto;
 }
 
 #cover {

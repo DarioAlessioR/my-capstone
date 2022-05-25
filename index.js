@@ -47,6 +47,7 @@ for (let i = 0; i <= concerts.length; i += 1) {
   // eslint-disable-next-line no-unused-vars
   listBands += `<div class="band-box">
   <div class="band-image">
+    <div class="band-image-background"></div>
     <img src="${concerts[i].image}" title="${concerts[i].band}" alt="${concerts[i].band}" />
   </div>
     <div class="band-info">
@@ -119,7 +120,7 @@ const modal = document.querySelector('#modalWin');
 
 /* FROM HERE CODE FOR MENU PROJECT */
 
-/*
+
 
 const ul = document.getElementById('show');
 const open = document.getElementById('open');
