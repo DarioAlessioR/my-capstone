@@ -267,10 +267,19 @@ section {
   justify-content: space-between;
 }
 
+.program-box a {
+  text-decoration: none;
+  display: flex;
+}
+
 .program-box:hover {
   border: 1px solid #fff;
   cursor: pointer;
   transition: 0.5s;
+}
+
+.program-box i {
+  width: 25%;
 }
 
 .program-box h3 {
@@ -565,6 +574,14 @@ nav a:hover {
 
   .tool-bar li {
     display: inline-block;
+  }
+
+  .program-box a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
   }
 
   nav a:hover {
