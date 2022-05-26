@@ -368,18 +368,34 @@ section {
 }
 
 .past-editions {
-  column-gap: 10px;
-  width: 80%;
-  max-width: 1080px;
-  flex-wrap: wrap;
-  justify-items: center;
-}
-
-div .past-editions {
-  justify-content: center;
-  width: 100%;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  max-width: 1080px;
+}
+
+.past-editions .edition2018 {
+  background-image: url("images/concert20.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 340px;
+  height: 230px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.past-editions .edition2019 {
+  background-image: url("images/concert21.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 340px;
+  height: 230px;
+  margin: 10px;
 }
 
 .past-editions img {
