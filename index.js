@@ -29,7 +29,7 @@ const concerts = [
     band: 'Arepa y Sushi Band',
     category: 'Venezuelan tipical music band with japanese artist included',
     description: 'The aclaimed and world famouse venezuelan misic band tha has conquered Asia and set the standard for etnit music in Japan. Concert to be held before main arena event on July 15th.',
-    image: 'images/arepasushi.jpg',
+    image: 'images/arepaysushi2.png',
   },
   {
     band: 'Universidad Gaitera',
