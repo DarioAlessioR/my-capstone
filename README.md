@@ -21,11 +21,15 @@ The pages should look almost identical to the original design. Small adjustments
 - You should build only these 2 pages:
 
 The home page.
+
 The about page.
+
 Each of these pages should have versions for 2 different screen sizes:
 
 Mobile: up to 768px wide.
+
 Desktop: 768px or wider.
+
 Interactions
 
 - Links
