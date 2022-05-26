@@ -95,7 +95,7 @@ Link: https://darioalessior.github.io/my-capstone/
 ### Video presentation of project
 
 Please, visit this link for a video preentation of the project: 
-
+https://www.loom.com/share/4dfe164e43f549a59974d6e1055f83a4
 
 ## Authors
 
