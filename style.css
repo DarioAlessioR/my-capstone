@@ -70,6 +70,16 @@ h4 {
   text-align: center;
 }
 
+.band-box h4 {
+  color: #272a31;
+  background: none;
+  font-size: 1.1rem;
+  margin: 0 0 20px 0;
+  padding: 0;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
 #about h4 {
   color: rgb(54, 51, 51);
   font-size: 1.33rem;
@@ -87,7 +97,6 @@ h4 {
 
 header {
   background-color: #fff;
-  -webkit-box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.25);
   box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.25);
   position: fixed;
   width: 100%;
@@ -111,12 +120,22 @@ nav {
   z-index: 100;
 }
 
+nav a {
+  background: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.33);
+  color: #fff;
+  display: block;
+  font-size: 1.15rem;
+  text-decoration: none;
+  padding: 10px;
+}
+
 nav ul {
   list-style: none;
 }
 
 nav .active,
-nav active:hover {
+nav .active:hover {
   background-color: rgba(255, 255, 255, 0.25);
   color: #fff;
   font-weight: 600;
@@ -178,21 +197,14 @@ section {
 }
 
 .container-header {
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
   padding: 10px;
 }
 
 .logo1 {
   opacity: 1;
-  -webkit-transition: 0.25s;
   transition: 0.25s;
 }
 
@@ -206,8 +218,6 @@ section {
 }
 
 .mobile-menu-close {
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   display: flex;
   font-size: 1.5rem;
@@ -218,14 +228,10 @@ section {
 }
 
 .mobile-menu-open {
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   color: #3e3e3e;
   display: flex;
   font-size: 1.2rem;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
   left: 0;
   position: absolute;
@@ -240,13 +246,11 @@ section {
 
 .nav-initial {
   left: -50%;
-  -webkit-transition: 0.25s;
   transition: 0.25s;
 }
 
 .nav-active {
   left: -0;
-  -webkit-transition: 0.25s;
   transition: 0.25s;
 }
 
@@ -254,13 +258,10 @@ section {
   background-color: rgba(255, 255, 255, 0.1);
   border: 1px solid transparent;
   color: #fff;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin: 2px;
   padding: 15px;
   width: 100%;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
   column-gap: 10px;
   justify-content: space-between;
@@ -269,7 +270,6 @@ section {
 .program-box:hover {
   border: 1px solid #fff;
   cursor: pointer;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
@@ -292,11 +292,7 @@ section {
 }
 
 .program-box .program-info {
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 50%;
 }
@@ -318,18 +314,6 @@ section {
   margin-bottom: 50px;
   width: 100%;
   column-gap: 10px;
-  
-  
-}
-
-.band-box h4 {
-  color: #272a31;
-  background: none;
-  font-size: 1.1rem;
-  margin: 0 0 20px 0;
-  padding: 0;
-  text-align: left;
-  margin-bottom: 5px;
 }
 
 .band-box p {
@@ -368,7 +352,7 @@ section {
   padding: 90px 0;
   text-align: center;
   display: flex;
- }
+}
 
 #about .box {
   margin-bottom: 20px;
@@ -395,8 +379,6 @@ div .past-editions {
 }
 
 #cover {
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   background-image: url('images/fugados-background2.jpg');
   background-size: cover;
@@ -427,16 +409,9 @@ div .past-editions {
 }
 
 #sponsors #list-sponsors {
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
 }
 
@@ -448,7 +423,6 @@ div .past-editions {
 a:hover {
   color: #ec5242;
   text-decoration: none;
-  -webkit-transition: 0.25s;
   transition: 0.25s;
 }
 
@@ -483,14 +457,12 @@ nav a:hover {
 
 #list-sponsors img {
   opacity: 0.25;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
   width: 100%;
 }
 
 #list-sponsors img:hover {
   opacity: 1;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
@@ -563,11 +535,7 @@ nav a:hover {
   }
 
   .container-header {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     padding: 10px;
   }
@@ -620,7 +588,6 @@ nav a:hover {
     margin-bottom: 20px;
     width: 60px;
     height: auto;
-    
   }
 
   .program-box p {
@@ -672,35 +639,18 @@ nav a:hover {
   }
 
   #list-program {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
     margin-bottom: 30px;
   }
 
   #list-bands {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-
-
-
-
-
-
-    
   }
 
   #sponsors #list-sponsors {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-    -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
   }
 
