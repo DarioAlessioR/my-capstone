@@ -50,7 +50,7 @@ h2 {
 .littleLine {
   width: 5%;
   border: 1px solid #ec5242;
-  margin-left: 47%;
+  margin-left: 47.5%;
   margin-right: 0;
   margin-bottom: 35px;
 }
@@ -333,7 +333,7 @@ section {
 }
 
 .band-box .band-info {
-  padding: 0 12.5px;
+  padding: 0 15.5px;
   width: 70%;
 }
 
