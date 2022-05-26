@@ -11,6 +11,10 @@
   padding: 0;
 }
 
+img {
+  width: 100%;
+}
+
 /* A HOVER SECTION */
 
 a {
@@ -382,19 +386,21 @@ section {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 340px;
-  height: 230px;
+  min-width: 350px;
+  max-width: 45%;
+  height: 200px;
   padding: 10px;
   margin: 10px;
 }
 
 .past-editions .edition2019 {
-  background-image: url("images/concert21.png");
+  background-image: url("images/concert22.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 340px;
-  height: 230px;
+  min-width: 350px;
+  max-width: 45%;
+  height: 200px;
   margin: 10px;
 }
 
