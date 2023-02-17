@@ -59,7 +59,7 @@ https://www.behance.net/gallery/29845175/CC-Global-Summit-2015
 
 ## Live Demo (if available)
 
-No demo link available.
+Demo link: https://darioalessior.github.io/my-capstone/
 
 
 ## Getting Started
