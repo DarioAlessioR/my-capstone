@@ -71,7 +71,6 @@
     "callsites": "^3.1.0",
     "camelcase": "^5.3.1",
     "camelcase-keys": "^6.2.2",
-    "caniuse-lite": "^1.0.30001332",
     "canvas": "^2.9.1",
     "caseless": "^0.12.0",
     "chalk": "^4.1.2",
