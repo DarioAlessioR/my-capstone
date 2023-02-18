@@ -41,11 +41,12 @@ const concerts = [
 
 /* FROM HERE CODE TO INJECT FEATURED BANDS FOR CAPSTONE PROJECT */
 
-let listBands = '';
+if (typeof document !== 'undefined') {
+  let listBands = '';
 
-for (let i = 0; i < concerts.length; i += 1) {
+  for (let i = 0; i < concerts.length; i += 1) {
   // eslint-disable-next-line no-unused-vars
-  listBands += `<div class="band-box">
+    listBands += `<div class="band-box">
   <div class="band-image">
     <div class="band-image-background"></div>
     <img src="${concerts[i].image}" title="${concerts[i].band}" alt="${concerts[i].band}" />
@@ -59,23 +60,26 @@ for (let i = 0; i < concerts.length; i += 1) {
     </div>
   </div>`;
 
-  document.getElementById('list-bands').innerHTML = listBands;
+    document.getElementById('list-bands').innerHTML = listBands;
+  }
 }
 
 /* FROM HERE CODE TO OPEN AND CLOSE MOBILE MENU FOR CAPSTONE PROJECT */
 
-const mobileMenuButtonOpen = document.querySelector('.mobile-menu-open');
-const mobileMenuButtonClose = document.querySelector('.mobile-menu-close');
-const mobileMenu = document.querySelector('nav');
+if (typeof document !== 'undefined') {
+  const mobileMenuButtonOpen = document.querySelector('.mobile-menu-open');
+  const mobileMenuButtonClose = document.querySelector('.mobile-menu-close');
+  const mobileMenu = document.querySelector('nav');
 
-mobileMenuButtonOpen.addEventListener('click', () => {
-  mobileMenuButtonOpen.style.opacity = 0;
-  mobileMenu.classList.remove('nav-initial');
-  mobileMenu.classList.add('nav-active');
-});
+  mobileMenuButtonOpen.addEventListener('click', () => {
+    mobileMenuButtonOpen.style.opacity = 0;
+    mobileMenu.classList.remove('nav-initial');
+    mobileMenu.classList.add('nav-active');
+  });
 
-mobileMenuButtonClose.addEventListener('click', () => {
-  mobileMenu.classList.remove('nav-active');
-  mobileMenu.classList.add('nav-initial');
-  mobileMenuButtonOpen.style.opacity = 1;
-});
+  mobileMenuButtonClose.addEventListener('click', () => {
+    mobileMenu.classList.remove('nav-active');
+    mobileMenu.classList.add('nav-initial');
+    mobileMenuButtonOpen.style.opacity = 1;
+  });
+}
