@@ -41,6 +41,7 @@ const concerts = [
 
 /* FROM HERE CODE TO INJECT FEATURED BANDS FOR CAPSTONE PROJECT */
 
+if (typeof document !== 'undefined') {
 let listBands = '';
 
 for (let i = 0; i < concerts.length; i += 1) {
@@ -61,9 +62,11 @@ for (let i = 0; i < concerts.length; i += 1) {
 
   document.getElementById('list-bands').innerHTML = listBands;
 }
+}
 
 /* FROM HERE CODE TO OPEN AND CLOSE MOBILE MENU FOR CAPSTONE PROJECT */
 
+if (typeof document !== 'undefined') {
 const mobileMenuButtonOpen = document.querySelector('.mobile-menu-open');
 const mobileMenuButtonClose = document.querySelector('.mobile-menu-close');
 const mobileMenu = document.querySelector('nav');
@@ -79,3 +82,4 @@ mobileMenuButtonClose.addEventListener('click', () => {
   mobileMenu.classList.add('nav-initial');
   mobileMenuButtonOpen.style.opacity = 1;
 });
+}
